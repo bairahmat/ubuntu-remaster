@@ -1,0 +1,2 @@
+# Make sure to mount the install cd to /media/cdrom for this to work
+deb file:/media/cdrom/cust-pkgs ./

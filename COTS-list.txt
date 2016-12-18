@@ -1,0 +1,2 @@
+rufus, https://rufus.akeo.ie/downloads/rufus-2.11.exe, 2.11.995
+makedevs, https://git.buildroot.net/buildroot/plain/package/makedevs/makedevs.c, 7092b1475ec4dc847b95308bf8cb05fde80c0a63

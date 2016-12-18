@@ -1,0 +1,32 @@
+
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# Example primary network interface
+#auto enp0s3
+#iface enp0s3 inet dhcp
+
+#auto eth0
+#iface eth0 inet dhcp
+
+#iface eth0 inet static
+#	address 192.168.0.1
+#	netmask 255.255.255.0
+#	gateway 192.168.0.254
+#	dns-search foobar.com
+#	dns-nameservers 8.8.8.8
+#	dns-nameservers 8.8.4.4
+
+# Wireless
+#auto wlan0
+#iface wlan0 inet dhcp
+#        wpa-ssid myssid
+#	# Generated using wpa_passphrase myssid my_very_secret_passphrase
+#        wpa-psk ccb290fd4fe6b22935cbae31449e050edd02ad44627b16ce0151668f5f53c01b
+
